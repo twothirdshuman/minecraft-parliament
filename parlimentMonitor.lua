@@ -140,6 +140,11 @@ local function displayBill(billName)
     scrollControll(billText, function(text) 
         writeToScreen(text, monitor)
     end)
+
+    ---@diagnostic disable-next-line: undefined-global
+    term.clear()
+    ---@diagnostic disable-next-line: undefined-global
+    term.setCursorPos(1, 1)
 end
 
 local function floor(num)
@@ -257,7 +262,7 @@ local function displayVote(title)
 
         if type == "char" then
             if char == "q" then
-                return
+                break
             elseif char == "f" then
                 forVotes = forVotes + 1
             elseif char == "a" then 
@@ -265,6 +270,11 @@ local function displayVote(title)
             end
         end
     end
+
+    ---@diagnostic disable-next-line: undefined-global
+    term.clear()
+    ---@diagnostic disable-next-line: undefined-global
+    term.setCursorPos(1, 1)
 end
 
 if option == "display" then
