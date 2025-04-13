@@ -102,14 +102,16 @@ local function scrollControll(wholeText, writingFunction)
     local nWords = 10
 
     while true do
+        local toWrite = ""
+
         ---@diagnostic disable-next-line: undefined-global
         term.clear()
         for i=1,nWords do
-            ---@diagnostic disable-next-line: undefined-global
-            write(words[i].." ")
+            toWrite = toWrite..words[i].." "
         end
+        writingFunction(toWrite)
         ---@diagnostic disable-next-line: undefined-global
-        write("\nPress space to scroll, q to quit ")
+        write(toWrite.."\nPress space to scroll, q to quit ")
 
         --- @diagnostic disable-next-line: unbalanced-assignments, undefined-field
         local type, char = os.pullEvent()
