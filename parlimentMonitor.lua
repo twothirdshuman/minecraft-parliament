@@ -1,15 +1,22 @@
 --- @type string?, string?, string?
 local option, arg1, arg2 = ...
 
+---@param str string
+---@return string
+local function urlEncode(str)
+    local encode = string.gsub(str, " ", "%%20")
+    return encode
+end
+
 ---@param billName string
 ---@return string
 local function getBillText(billName) 
-    local url = "https://raw.githubusercontent.com/twothirdshuman/minecraft-parliament/refs/heads/main/"..billName..".txt"
     ---@diagnostic disable-next-line: undefined-global
-    url = textutils.urlEncode(url)
+    local url = "https://raw.githubusercontent.com/twothirdshuman/minecraft-parliament/refs/heads/main/"..urlEncode(billName)..".txt"
     ---@diagnostic disable-next-line: undefined-global, unbalanced-assignments
     local res, reason, errRes = http.get(url)
     if res == nil then
+        print("url: "..url)
         if errRes == nil then
             error("could not get bill no http response: "..reason)
         end
