@@ -30,6 +30,25 @@ local function getBillText(billName)
     return billText
 end
 
+
+---@param monitor unknown
+local function scrollIfNeed(monitor)
+    --- @type number, number
+    --- @diagnostic disable-next-line: unbalanced-assignments
+    local _, height = monitor.getSize()
+
+    --- @type number, number
+    --- @diagnostic disable-next-line: unbalanced-assignments
+    local _, y = monitor.getCursorPos()
+    monitor.setCursorPos(1, y + 1)
+    --- @diagnostic disable-next-line: unbalanced-assignments
+    _, y = monitor.getCursorPos()
+
+    if y > height then
+        monitor.scroll(1)
+    end
+end
+
 ---@param text string
 ---@param monitor unknown
 local function writeToScreen(text, monitor)
@@ -53,24 +72,17 @@ local function writeToScreen(text, monitor)
         local word = words[wordIndex]
         --- @type number, number
         --- @diagnostic disable-next-line: unbalanced-assignments
-        local x, y = monitor.getCursorPos()
+        local x, _ = monitor.getCursorPos()
 
         if (x + #word - 1) > width then
-            monitor.setCursorPos(1, y + 1)
-            monitor.scroll(1)
+            scrollIfNeed(monitor)
         end
-
-        --- @diagnostic disable-next-line: unbalanced-assignments
-        x, y = monitor.getCursorPos()
 
         for i = 1, #word do
             local char = string.sub(word, i, i)
             monitor.write(char)
             if char == "\n" then
-                monitor.setCursorPos(1, y + 1)
-                monitor.scroll(1)
-                --- @diagnostic disable-next-line: unbalanced-assignments
-                x, y = monitor.getCursorPos()
+                scrollIfNeed(monitor)
             end
         end
         monitor.write(" ")
