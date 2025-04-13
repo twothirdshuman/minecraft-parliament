@@ -10,6 +10,11 @@ local function urlEncode(str)
     return encode
 end
 
+local function toWin1252(input)
+    -- Replace UTF-8 section sign (C2 A7) with Windows-1252 section sign (A7)
+    return input:gsub("\194\167", "\167")  -- 194 = 0xC2, 167 = 0xA7
+end
+
 ---@param billName string
 ---@return string
 local function getBillText(billName) 
@@ -25,7 +30,7 @@ local function getBillText(billName)
         error("could not get bill got code: "..tostring(errRes.getResponseCode()))
     end
     --- @type string
-    local billText = res.readAll()
+    local billText = toWin1252(res.readAll())
 
     return billText
 end
