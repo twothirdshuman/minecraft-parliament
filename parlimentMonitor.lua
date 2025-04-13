@@ -4,10 +4,16 @@ local option, arg1, arg2 = ...
 ---@param billName string
 ---@return string
 local function getBillText(billName) 
+    local url = "https://raw.githubusercontent.com/twothirdshuman/minecraft-parliament/refs/heads/main/"..billName..".txt"
     ---@diagnostic disable-next-line: undefined-global
-    local res = http.get("https://raw.githubusercontent.com/twothirdshuman/minecraft-parliament/refs/heads/main/"..billName..".txt")
-    if res.getResponseCode() ~= 200 then
-        error("could not get bill got code: "..tostring(res.getResponseCode()))
+    url = textutils.urlEncode(url)
+    ---@diagnostic disable-next-line: undefined-global, unbalanced-assignments
+    local res, reason, errRes = http.get(url)
+    if res == nil then
+        if errRes == nil then
+            error("could not get bill no http response: "..reason)
+        end
+        error("could not get bill got code: "..tostring(errRes.getResponseCode()))
     end
     --- @type string
     local billText = res.readAll()
@@ -31,7 +37,7 @@ if option == "display" then
     end
     displayBill(arg1)
 elseif option == "vote" then
-    
+
 elseif option == nil then
     print("Uses:")
     print(" - display [billName]")
