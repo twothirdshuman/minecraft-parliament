@@ -254,6 +254,7 @@ local function writeResult(monitor, isPassed)
     local writeX = floor(half - ((#text) / 2))
     monitor.setTextColor(color)
     monitor.setCursorPos(writeX, 10)
+    monitor.write(text)
     ---@diagnostic disable-next-line: undefined-global
     monitor.setTextColor(colors.white)
 end
