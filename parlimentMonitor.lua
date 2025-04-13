@@ -301,8 +301,12 @@ local function displayVote(title)
                 againstVotes = againstVotes + 1
             elseif char == "p" then
                 writeResult(monitor, true)
+                ---@diagnostic disable-next-line: undefined-global
+                writeResult(term, true)
             elseif char == "r" then 
                 writeResult(monitor, false)
+                ---@diagnostic disable-next-line: undefined-global
+                writeResult(term, false)
             elseif char == "z" then
                 forVotes = 0
                 againstVotes = 0
