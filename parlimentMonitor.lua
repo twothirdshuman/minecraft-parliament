@@ -90,13 +90,49 @@ local function writeToScreen(text, monitor)
     end
 end
 
+---@param wholeText string
+---@param writingFunction fun(text: string): nil
+local function scrollControll(wholeText, writingFunction)
+    local words = {}
+
+    for word in string.gmatch(wholeText, "[^ ]+") do
+        table.insert(words, word)
+    end
+
+    local nWords = 10
+
+    while true do
+        ---@diagnostic disable-next-line: undefined-global
+        term.clear()
+        for i=1,nWords do
+            ---@diagnostic disable-next-line: undefined-global
+            write(words[i].." ")
+        end
+        ---@diagnostic disable-next-line: undefined-global
+        write("\nPress space to scroll, q to quit ")
+
+        --- @diagnostic disable-next-line: unbalanced-assignments, undefined-field
+        local type, char = os.pullEvent()
+
+        if type == "char" then
+            if char == "q" then
+                return
+            elseif char == " " then
+                nWords = nWords + 10
+            end
+        end
+    end
+end
 ---@param billName string
 local function displayBill(billName)
     local billText = getBillText(billName)
 
     ---@diagnostic disable-next-line: undefined-global
     local monitor = peripheral.find("monitor")
-    writeToScreen(billText, monitor)
+
+    scrollControll(billText, function(text) 
+        writeToScreen(text, monitor)
+    end)
 end
 
 if option == "display" then
