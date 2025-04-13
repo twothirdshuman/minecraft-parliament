@@ -106,6 +106,8 @@ local function scrollControll(wholeText, writingFunction)
 
         ---@diagnostic disable-next-line: undefined-global
         term.clear()
+        ---@diagnostic disable-next-line: undefined-global
+        term.setCursorPos(1, 1)
         for i=1,nWords do
             toWrite = toWrite..words[i].." "
         end
