@@ -109,6 +109,9 @@ local function scrollControll(wholeText, writingFunction)
         ---@diagnostic disable-next-line: undefined-global
         term.setCursorPos(1, 1)
         for i=1,nWords do
+            if #words < i then
+                break
+            end
             toWrite = toWrite..words[i].." "
         end
         writingFunction(toWrite)
@@ -223,12 +226,15 @@ end
 local function displayVote(title)
     ---@diagnostic disable-next-line: undefined-global
     local monitor = peripheral.find("monitor")
-    
+    monitor.clear()
+
     local forVotes, againstVotes = 0, 0
     writeTitle(title, monitor)
     writeForAgainst(monitor)
     writeVotes(monitor, forVotes, againstVotes)
 
+    ---@diagnostic disable-next-line: undefined-global
+    term.clear()
     ---@diagnostic disable-next-line: undefined-global
     writeTitle(title, term)
     ---@diagnostic disable-next-line: undefined-global
