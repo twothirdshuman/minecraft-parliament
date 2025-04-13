@@ -45,6 +45,10 @@ local function printText(text)
         local _, height = printer.getPageSize()
         for _=1,height do
             printer.write(lines[lineIndex])
+            ---@type number, number
+            ---@diagnostic disable-next-line: unbalanced-assignments
+            local _, y = printer.getCursorPos()
+            printer.setCursorPos(1, y + 1)
             lineIndex = lineIndex + 1
             if lineIndex > #lines then
                 return
