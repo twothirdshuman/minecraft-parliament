@@ -46,6 +46,7 @@ local function scrollIfNeed(monitor)
 
     if y > height then
         monitor.scroll(1)
+        monitor.setCursorPos(1, y - 1)
     end
 end
 
