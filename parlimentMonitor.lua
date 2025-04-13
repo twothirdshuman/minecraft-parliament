@@ -1,3 +1,4 @@
+
 --- @type string?, string?, string?
 --- @diagnostic disable-next-line: unbalanced-assignments
 local option, arg1, arg2 = ...
@@ -56,6 +57,7 @@ local function writeToScreen(text, monitor)
 
         if (x + #word - 1) > width then
             monitor.setCursorPos(1, y + 1)
+            monitor.scroll(1)
         end
 
         --- @diagnostic disable-next-line: unbalanced-assignments
@@ -66,6 +68,7 @@ local function writeToScreen(text, monitor)
             monitor.write(char)
             if char == "\n" then
                 monitor.setCursorPos(1, y + 1)
+                monitor.scroll(1)
                 --- @diagnostic disable-next-line: unbalanced-assignments
                 x, y = monitor.getCursorPos()
             end
