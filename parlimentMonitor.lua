@@ -232,6 +232,32 @@ local function writeVotes(monitor, forVotes, againstVotes)
     monitor.setTextColor(colors.white)
 end
 
+---@param monitor unknown
+---@param isPassed boolean
+local function writeResult(monitor, isPassed) 
+    ---@type number, number
+    ---@diagnostic disable-next-line: unbalanced-assignments
+    local width, _ = monitor.getSize()
+    
+    local text = "Passed"
+    ---@diagnostic disable-next-line: undefined-global
+    local color = colors.green
+
+    if not isPassed then
+        text = "Rejected"
+        ---@diagnostic disable-next-line: undefined-global
+        color = colors.red
+    end
+
+    local half = width / 2
+
+    local writeX = floor(half - ((#text) / 2))
+    monitor.setTextColor(color)
+    monitor.setCursorPos(writeX, 10)
+    ---@diagnostic disable-next-line: undefined-global
+    monitor.setTextColor(colors.white)
+end
+
 ---@param title string
 local function displayVote(title)
     ---@diagnostic disable-next-line: undefined-global
@@ -253,9 +279,9 @@ local function displayVote(title)
     writeVotes(term, forVotes, againstVotes)
 
     ---@diagnostic disable-next-line: undefined-global
-    term.setCursorPos(1, 10)
+    term.setCursorPos(1, 15)
     ---@diagnostic disable-next-line: undefined-global
-    write("Press f to add for vote, a to add against vote, q to quit")
+    write("Press f to add for vote, a to add against vote, z to zero votes, p to pass, r to Rejected, q to quit")
 
     while true do
         ---@diagnostic disable-next-line: undefined-global
@@ -272,6 +298,13 @@ local function displayVote(title)
                 forVotes = forVotes + 1
             elseif char == "a" then 
                 againstVotes = againstVotes + 1
+            elseif char == "p" then
+                writeResult(monitor, true)
+            elseif char == "r" then 
+                writeResult(monitor, false)
+            elseif char == "z" then
+                forVotes = 0
+                againstVotes = 0
             end
         end
     end
