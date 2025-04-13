@@ -32,6 +32,8 @@ end
 ---@param text string
 ---@param monitor unknown
 local function writeToScreen(text, monitor)
+    monitor.setTextScale(1.5)
+
     --- @type number, number
     --- @diagnostic disable-next-line: unbalanced-assignments
     local width, height = monitor.getSize()
@@ -56,11 +58,16 @@ local function writeToScreen(text, monitor)
             monitor.setCursorPos(1, y + 1)
         end
 
+        --- @diagnostic disable-next-line: unbalanced-assignments
+        x, y = monitor.getCursorPos()
+
         for i = 1, #word do
             local char = string.sub(word, i, i)
             monitor.write(char)
             if char == "\n" then
                 monitor.setCursorPos(1, y + 1)
+                --- @diagnostic disable-next-line: unbalanced-assignments
+                x, y = monitor.getCursorPos()
             end
         end
         monitor.write(" ")
