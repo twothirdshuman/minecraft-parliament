@@ -1,6 +1,6 @@
 Ch 1. Scope of law
 
-§1 This law creates the Central Bank. Whose job it is to issue currency and ensure commerce is going by smothly.
+§1 This law creates the Central Bank. Whose job it is to issue currency and ensure commerce is going by smoothly.
 
 Ch 2. Organizational structure of the Central Bank
 
@@ -31,3 +31,9 @@ Ch 3. Powers
 §7 The Central Bank may create systems for easing the transaction of money.
 
 §8 The Central Bank may act as a lender.
+
+§9 The Central Bank may issue Goverment debt.
+
+Ch 4. Responsibilities 
+
+§1 The Central Bank pays back Goverment debt.
