@@ -6,9 +6,9 @@ Ch 2. Organizational structure of the Central Bank
 
 §1 The Central Bank is led by the chairman of the Central Bank.
 
-§2 The chairman has controll over all decision and actions made by the Central Bank.
+§2 The chairman has control over all decision and actions made by the Central Bank.
 
-§3 The Central Bank is under parliamentary controll, the chairman most be elected by a majority in parliament.
+§3 The Central Bank is under parliamentary control, the chairman most be elected by a majority in parliament.
 
 §4 A no confidence may be held against the chairman, if a majority of parliament votes yes he is removed from his position.
 
@@ -18,9 +18,9 @@ Ch 3. Powers
 
 §2 The Central Bank may issue any security and set the price of it.
 
-§3a The Central Bank can controll interest rates.
+§3a The Central Bank can control interest rates.
 
-§3b The interest rate is the rate of which money grows when keept with the Central Bank itself.
+§3b The interest rate is the rate of which money grows when kept with the Central Bank itself.
 
 §4 The Central Bank may buy, hold, and sell any asset.
 
@@ -32,8 +32,8 @@ Ch 3. Powers
 
 §8 The Central Bank may act as a lender.
 
-§9 The Central Bank may issue Goverment debt.
+§9 The Central Bank may issue Government debt.
 
 Ch 4. Responsibilities 
 
-§1 The Central Bank pays back Goverment debt.
+§1 The Central Bank pays back Government debt.
