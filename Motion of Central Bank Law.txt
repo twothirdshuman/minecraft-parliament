@@ -14,7 +14,7 @@ Ch 2. Organizational structure of the Central Bank
 
 Ch 3. Powers
 
-§1 The Central Bank may print money.
+§1 The Central Bank may mint money.
 
 §2 The Central Bank may issue any security and set the price of it.
 
