@@ -1,0 +1,73 @@
+The Constitution
+
+Ch 1. Basic rights
+
+§1 All public power comes from the citizens.
+
+§2 Every player that has joined the server and the gronglets are considered citizens.
+
+§3 Everyone is equal under the law and entitled to a fair trial.
+
+§4a Everyone in entitled to the rights set forth in the universal declaration of human rights (UDHR).
+
+§4b Articles 13.1, 13.2, 14.1, 14.2, 16.3, 22, 26.1, and 26.3 of the universal declaration of human rights shall be considered legally void since they cover only responsibilities of a real government and not a Minecraft one. 
+
+§4c Article 21.3 shall be modified to read:
+
+The will of the people shall be the basis of the authority of government; this will shall be expressed in genuine votes which shall be by universal and equal suffrage and shall be held by public and free voting procedures. 
+
+§4d All articles must be interpreted within the context of a Minecraft government.
+
+Ch 2. Grongress
+
+§1 Grongress has power to write, changes, and abolish laws.
+
+§2 Only using law can Grongress use their power.
+
+§3 A citizen is an eligible voter in Grongress if they have been on the server in the past 168 hours.
+
+§4a There are two ways of changing the constitution; instant and normal.
+
+§4b Instant changes to the constitution require unanimity of all eligible voters.
+
+§4c Normal changes to the constitution require two identical decisions by Grongress, made at least 336 hours apart. Each decision must be approved by more than two-thirds of all eligible voters.
+
+§5 For enacting law more than a majority of eligible voters have to vote yes.
+
+§6a A speaker shall be confirmed by more than a majority of eligible voters.
+
+§6b The speaker has the power to assemble parliament and lead procedures.
+
+§6c The speaker can temporally give their power to any other player.
+
+§6d The speaker may be removed and replaced by a majority of eligible voters.
+
+§7 No law can discriminant between any players, group of players, gronglets, or group of gronglets.
+
+§8 Votes in Grongress are public.
+
+Ch 3. Courts
+
+§1 The court's responsibility is to fix disputes regarding law. 
+
+§2 The court has the power to interpret law, give out orders in accordance with law, and to give out punishment in accordance with law.
+
+§3a A judge shall be appointed for all cases.
+
+§3b The judge cannot be the defendant or prosecutor.
+
+§3c The judge cannot have any bias or conflict of interest regarding to case before them.
+
+§4a In cases where no judge can be appointed according to §3, a speaker of court shall be appointed to lead procedures.
+
+§4b The verdict of such a decision shall be decided by a coin flip.
+
+§4c The consequences of the verdict shall be decided by the speaker of court.
+
+Ch 4. Government
+
+§1 Grongress may create government institutions and appoint people to government institutions in order to execute law.
+
+§2 All positions in Government are subject to votes of no confidence.
+
+§3 vote of no confidence is passed when more than a majority of eligible voters vote yes. The consequence is removal from that position.
