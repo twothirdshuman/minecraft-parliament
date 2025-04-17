@@ -36,17 +36,19 @@ Ch 2. Grongress
 
 §6 No enacted law can violate the constitution.
 
-§6a A speaker shall be confirmed by more than a majority of eligible voters.
-
-§6b The speaker has the power to assemble parliament and lead procedures.
-
-§6c The speaker can temporally give their power to any other player.
-
-§6d The speaker may be removed and replaced by a majority of eligible voters.
-
 §7 No law can discriminant between any players, group of players, gronglets, or group of gronglets.
 
 §8 Votes in Grongress are public.
+
+§9a A speaker shall be confirmed by more than a majority of eligible voters.
+
+§9b The speaker has the power to assemble parliament and lead procedures.
+
+§9c When a eligible voter submits a motion to the speaker they must make sure a vote on that is held within 168 hours.
+
+§9d The speaker can temporally give their power to any other player.
+
+§9e The speaker may be removed and replaced by a majority of eligible voters.
 
 Ch 3. Courts
 
