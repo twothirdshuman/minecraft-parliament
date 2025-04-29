@@ -1,6 +1,6 @@
 The Constitution
 
-Ch 1. Basic rights
+Ch. 1 Basic rights
 
 §1 All public power comes from the people. 
 
@@ -16,13 +16,13 @@ Public power is exercised under the laws.
 
 §3 Every player that has joined the server and the gronglets are considered citizens.
 
-Ch 2. Grongress
+Ch. 2 Grongress
 
 §1 Grongress has power to write, change, and abolish laws.
 
 §2 A citizen is an eligible voter in Grongress if they have been on the server in the past 168 hours (7 days).
 
-§3 References of "more than [ratio] of all eligible voters" shall mean that the motion or decision is passed if the votes of those present exceed the specified ratio of the total number of eligible voters (present and absent). Not necessarily requiring all eligible voters to participate.
+§3 The phrase "more than [ratio] of all eligible voters" shall mean that the motion or decision is passed if the votes of those present exceed the specified ratio of the total number of eligible voters in Grongress (present and absent). Not necessarily requiring all eligible voters to participate.
 
 §4a There are two ways of changing the constitution; instant and normal.
 
@@ -46,9 +46,9 @@ Ch 2. Grongress
 
 §9d The speaker may appoint someone temporally to carry out their duty in case they are unable to. 
 
-§9e The speaker is subject to votes of no confidence in the same way as government officials are under ch 4. §2. Such votes of no confidence require no speaker to be present and any eligible voter may lead procedures.
+§9e The speaker is subject to votes of no confidence in the same way as government officials are under ch. 4 §2 of this constitution. Such votes of no confidence require no speaker to be present and any eligible voter may lead procedures.
 
-Ch 3. Courts
+Ch. 3 Courts
 
 §1 The court's responsibility is to fix disputes regarding law. 
 
@@ -60,7 +60,7 @@ Ch 3. Courts
 
 §3c The judge cannot have any bias or conflict of interest regarding the case before them.
 
-§3d In cases where multiple players are eligible to be judge and want to be appointed judge, then the judge shall be appointed by lot with an equal probability of all the eligible players.
+§3d In cases where multiple players are eligible to be judge and want to be appointed judge, then the judge shall be appointed by lot with an equal probability of all the willing and eligible players.
 
 §4a If no judge can be appointed in accordance to §3 then a speaker of court shall be appointed to lead procedures.
 
@@ -74,7 +74,9 @@ Ch 3. Courts
 
 §5c Grongress may not overturn a decision on the unconstitutionally of any law passed.  
 
-Ch 4. Government
+§6 Previous court decisions set precedent that later court decisions must consider, but not necessarily follow.
+
+Ch. 4 Government
 
 §1 Grongress may create government institutions and appoint people to government institutions in order to execute law.
 
