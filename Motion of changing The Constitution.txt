@@ -2,49 +2,51 @@ The Constitution
 
 Ch 1. Basic rights
 
-§1 All public power comes from the citizens. Through Grongress is this power exercised.
+§1 All public power comes from the people. 
 
-§2 Every player that has joined the server and the gronglets are considered citizens.
+This system of government is based on the free formation of opinion and on universal and equal suffrage. It is implemented through a parliamentary system of government.
 
-§3a Everyone is entitled to the rights set forth in the universal declaration of human rights (UDHR).
+Public power is exercised under the laws.
 
-§3b Articles of the UDHR that depend on real-world institutions or resources such as the right to asylum (Art. 14) or formal education (Art. 26.1, 26.3) shall be interpreted in a symbolic or limited manner.
+§2a Everyone is entitled to the rights set forth in the universal declaration of human rights (UDHR).
 
-§3c All articles must be interpreted within the context of a Minecraft government.
+§2b Articles of the UDHR that depend on real-world institutions or resources such as the right to asylum (Art. 14) or formal education (Art. 26.1, 26.3) shall be interpreted in a symbolic or limited manner.
+
+§2c All articles must be interpreted within the context of a Minecraft government.
+
+§3 Every player that has joined the server and the gronglets are considered citizens.
 
 Ch 2. Grongress
 
 §1 Grongress has power to write, change, and abolish laws.
 
-§2 Only through law can Grongress use their power.
+§2 A citizen is an eligible voter in Grongress if they have been on the server in the past 168 hours (7 days).
 
-§3 A citizen is an eligible voter in Grongress if they have been on the server in the past 168 hours (7 days).
+§3 References of "more than [ratio] of all eligible voters" shall mean that the motion or decision is passed if the votes of those present exceed the specified ratio of the total number of eligible voters (present and absent). Not necessarily requiring all eligible voters to participate.
 
-§4 References of "more than [ratio] of all eligible voters" shall mean that the motion or decision is passed if the votes of those present exceed the specified ratio of the total number of eligible voters (present and absent). Not necessarily requiring all eligible voters to participate.
+§4a There are two ways of changing the constitution; instant and normal.
 
-§5a There are two ways of changing the constitution; instant and normal.
+§4b Instant changes to the constitution require unanimity of all eligible voters.
 
-§5b Instant changes to the constitution require unanimity of all eligible voters.
+§4c Normal changes to the constitution require two identical decisions by Grongress, made at least 168 hours apart. Each decision must be approved by more than two-thirds of all eligible voters.
 
-§5c Normal changes to the constitution require two identical decisions by Grongress, made at least 168 hours apart. Each decision must be approved by more than two-thirds of all eligible voters.
+§5 For enacting law more than half of all eligible voters have to vote in favor.
 
-§6 For enacting law more than half of all eligible voters have to vote in favor.
+§6 No enacted law can violate the constitution.
 
-§7 No enacted law can violate the constitution.
+§7 No law can discriminate between any players, groups of players, gronglets, or groups of gronglets.
 
-§8 No law can discriminate between any players, groups of players, gronglets, or groups of gronglets.
+§8 Votes in Grongress are public.
 
-§9 Votes in Grongress are public.
+§9a A speaker shall be confirmed by more than half of all eligible voters.
 
-§10a A speaker shall be confirmed by more than half of all eligible voters.
+§9b The speaker has the power to assemble parliament and lead procedures.
 
-§10b The speaker has the power to assemble parliament and lead procedures.
+§9c When an eligible voter submits a motion to the speaker they must make sure a vote on that is held within 168 hours.
 
-§10c When an eligible voter submits a motion to the speaker they must make sure a vote on that is held within 168 hours.
+§9d The speaker may appoint someone temporally to carry out their duty in case they are unable to. 
 
-§10d The speaker may appoint someone temporally to carry out their duty in case they are unable to. 
-
-§10e The speaker are subject to votes of no confidence.
+§9e The speaker is subject to votes of no confidence in the same way as government officials are under ch 4. §2. Such votes of no confidence require no speaker to be present and any eligible voter may lead procedures.
 
 Ch 3. Courts
 
@@ -76,8 +78,8 @@ Ch 4. Government
 
 §1 Grongress may create government institutions and appoint people to government institutions in order to execute law.
 
-§2 All positions in Government are subject to votes of no confidence.
+§2a All positions in Government are subject to votes of no confidence.
 
-§3a A vote of no confidence is passed when more than half of eligible voters are in favor. 
+§2b A vote of no confidence is passed when more than half of eligible voters are in favor. 
 
-§3b The consequence of a successful no confidence vote is the immediate removal of the individual from their position. However, the individual shall continue in a limited transitional capacity until Grongress appoints a replacement, with only the authority necessary to maintain basic continuity of operations.
+§2c The consequence of a successful no confidence vote is the immediate removal of the individual from their position. However, the individual shall continue in a limited transitional capacity until Grongress appoints a replacement, with only the authority necessary to maintain basic continuity of operations.
