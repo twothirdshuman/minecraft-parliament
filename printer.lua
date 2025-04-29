@@ -55,6 +55,8 @@ local function printText(text)
             end
         end
 
+        sleep(0.5)
+
         -- And finally print the page!
         if not printer.endPage() then
             error("Cannot end the page. Is there enough space?")
