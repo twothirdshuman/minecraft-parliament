@@ -10,7 +10,7 @@ Public power is exercised under the laws.
 
 §2a Everyone is entitled to the rights set forth in the universal declaration of human rights (UDHR).
 
-§2b Articles of the UDHR that depend on real-world institutions or resources such as the right to asylum (Art. 14) or formal education (Art. 26.1, 26.3) shall be interpreted in a symbolic or limited manner.
+§2b Articles of the UDHR that depend on real-world institutions or resources such as the right to asylum (Art. 14) or formal education (Art. 26.1, 26.3) shall be interpreted in a symbolic and limited manner.
 
 §2c All articles must be interpreted within the context of a Minecraft government.
 
