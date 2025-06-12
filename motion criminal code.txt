@@ -34,4 +34,4 @@ ch 3. Crime modifiers
 
 §1 One may be convicted of Attempted [Crime] if they take a substantial step toward committing a crime, even if the crime is not completed. Punishment shall be determined as if the crime occurred, but may be reduced at the court's discretion.
 
-§2 One may be convicted of Threatened [Crime] if they intentionally communicate a credible threat to commit a crime, and the threat causes reasonable fear or disruption. Mere empty or vague threats without indication of intent or effect shall not be sufficient for conviction.
+§2 One may be convicted of Threatened [Crime] if they intentionally communicate a credible threat to commit a crime, and the threat causes reasonable fear or disruption. Mere empty or vague threats without indication of intent or effect shall not be sufficient for conviction. Punishment shall be determined as if the crime occurred, but may be reduced at the court's discretion.
